@@ -1,0 +1,120 @@
+
+            :root{
+                --red: #e63946;
+                --blue: #1d3557;
+                --green: #2a9d8f;
+                --light: #f1faee;
+                --dark: #1d3557;
+            
+            
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+            body{
+                font-family: 'Times New Roman', Times, serif; line-height: 1.6;
+                color: var (--dark);
+                background-color: #f1faee;
+            }
+            .container{
+                width: 95%;
+                max-width: 1100%;
+                margin: 0 auto;
+                padding: 0 14px;
+            }
+            section{
+                padding: 5rem 0;
+            }
+            h1, h2, h3, h4{
+                margin-bottom: 1rem;
+                font-weight: 650;
+                line-height: 1.3;
+            }
+            p{
+                margin-bottom: 1.4rem;
+            }
+            a{
+                text-decoration: none;
+                color: var(--blue);
+                transition: all 0.3s ease;
+            }
+            header{
+                background: linear(135, var(--blue), #14213d);
+                color: green;
+                padding: 2rem 0;
+                text-align:center;
+                position: relative;
+                overflow: hidden;
+            }
+            h1{
+                font-size: 3rem;
+                opacity: 0.5rem;
+                margin-bottom: 1.5rem
+            }
+
+            nav{
+                background-color: #f1faee;
+                box-shadow: #14213d;
+                position: sticky;
+                top: 0;
+                z-index: 101;
+            }
+            #about{
+                background-color: antiquewhite;
+            }
+            .skills-container{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 2re;
+            }
+                .skill-category{
+                    background: #f1faee;
+                    border-radius: 10pax;
+                    padding: 2rem;
+            }
+                .skill-category-title{
+                    font-size: 1.5rem;
+                    color: var(--blue);
+                    align-items: center;
+                }
+                .skills-list{
+                    list-style: none;
+                }
+                #contact{background-color: antiquewhite;
+                }
+                .contact-container{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    gap: 2rem;
+                }
+                .contact-info{
+                    display: flex;
+                    gap: 1.5rem;
+                }
+
+                .contact-item{
+                    align-items: center;
+                    background: #f1faee;
+                    padding: 1.5rem;
+                }
+                .contact-icon{
+                    width: 50px;
+                    height: 50px;
+                    align-items: center;
+                    color: antiquewhite;
+                    font-size: 1.5rem;
+                }
+                .resume-content{
+                    text-align: center;
+                    max-width: 700px;
+                    margin: 0auto;
+                }
+                .resume-content p{
+                    font-size: 1.1rem;
+                    margin-bottom: 1.9rem;
+                }
+        
